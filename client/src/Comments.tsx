@@ -13,7 +13,7 @@ export interface Comment {
   timestamp: string;
 }
 
-export function Dashboard() {
+export function CommentPage() {
   const queryClient = useQueryClient();
 
   const { data: comments, isLoading } = useQuery({

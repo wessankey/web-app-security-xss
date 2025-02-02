@@ -1,4 +1,4 @@
-import { Comment } from "../Dashboard";
+import { Comment } from "../Comments";
 
 export const getComments = async () => {
   const response = await fetch("http://localhost:3000/api/comments");
